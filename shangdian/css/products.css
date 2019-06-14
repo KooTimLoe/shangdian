@@ -1,0 +1,257 @@
+.lb img
+{
+	height: 300px;
+}
+
+.nr
+{
+	width: 80%;
+	height: auto;
+	margin: 50px auto;
+	text-align: left;
+}
+.nr-z
+{
+	width: 20%;
+	float: left;
+	
+}
+.nr-z label li,
+.nr-z li
+{
+	text-align: center;
+	font-size: 16px;
+	width: 148px;
+	line-height: 70px;
+	border-bottom: 1px solid #eeeeee;
+	text-align: center;
+}
+.nr-z label
+{
+	font-size: 16px;
+}
+.nr-z:first-line
+{
+	font-size: 24px;
+	font-weight: 900;
+}
+
+
+.nr-y
+{
+	width: 80%;
+	display: inline-block;
+}
+.nr-y li:nth-child(1)
+{
+    height:40px;
+	margin:25px auto;
+	font-size: 18px;
+	color: #b9b9b9;
+	
+}
+.nr-y li:nth-child(1)>img
+{
+	margin-right: 10px;
+}
+.nr-y li:nth-child(1)>span
+{
+	float: right;
+	font-size: 12px;
+	color: #8d8d8d;
+	margin-top: 5px;
+}
+.nr-y li:checked
+{
+	background:#d6ee74 ;
+	color: #fff;
+}
+.nr-y li:nth-child(1)>span a
+{
+	color: #8d8d8d;
+}
+.nr-y li
+{
+	height: 170px;
+	border-bottom: 1px solid #eeeeee;
+}
+.nr li img
+{
+	float: left;
+}
+
+
+.nr-y .container,
+.nr-y .row
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.nr-y .row div
+{
+	margin: 0;
+	padding: 0;
+}
+.nr-y .row div img
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.nr-y .row .wz
+{
+	text-align: center;
+}
+
+.nr-y .row .wz h4
+{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.nr-y .row .wz p
+{
+	width: 55%;
+	text-align: left;
+	font-size:12px ;
+	line-height: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.nr-y .row .wz span
+{
+	width:25%;
+	line-height: 50px;
+	margin: 0 auto;
+	border: 2px solid #d6ee74;
+	text-align: center;
+}
+.nr-y .row .wz-1 span
+{
+	border: 2px solid #FFFFFF;
+}
+.nr-y .row .wz a
+{
+	width:93%;
+	line-height: 40px;
+	color: #fff;
+	background: #D6EE74;
+}
+.nr-y .row .wz-1 a
+{
+	background: #fff;
+	color: #000;
+}
+.nr-y .wz-1
+{
+	height:362px;
+	background: #d6ee74;
+	color: #fff;
+}
+.nr-y .wz-1 p
+{
+	color: #fff;
+}
+
+
+
+.fye li
+{
+    float: left;
+    width: 57px;
+    height: 20px;
+    text-align: center;
+}
+.fye
+{
+    width: 37%;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 27%;
+}
+.fye li:hover
+{
+	color: #a5dfb5;
+}
+@media screen and (max-width:1220px ) 
+{
+	.fye
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+
+@media screen and (max-width:900px) 
+{
+	.nr-z
+	{
+		width: 100%;
+		height: auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.nr-z li
+	{
+		float: left;
+	}
+	.nr-y
+	{
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+	.nr-y li:nth-child(1)
+	{
+		padding-top: 40px;
+		height: 70px;
+	}
+}
+.nr1,.nr2,.nr3,input
+{
+	display: none;
+}
+
+input[id="li1"]:checked~.nr1
+{
+	display: inline-block;
+}
+input[id="li1"]:checked~.nr2,
+input[id="li1"]:checked~.nr3
+{
+	display: none;
+}
+input[id="li2"]:checked~.nr2
+{
+	display: inline-block;
+}
+input[id="li2"]:checked~.nr1,
+input[id="li2"]:checked~.nr3
+{
+	display: none;
+}
+input[id="li3"]:checked~.nr3
+{
+	display: inline-block;
+}
+input[id="li3"]:checked~.nr1,
+input[id="li3"]:checked~.nr2
+{
+	display: none;
+}
+
+input[id="li1"]:checked ~.nr-z label#cp1, input[id="li2"]:checked ~.nr-z label#cp2, input[id="li3"]:checked ~.nr-z label#cp3 {
+    color: #fff;
+    background: #d6ee74;
+}
+.nr-z label:hover
+{
+	color: #fff;
+    background: #d6ee74;
+}

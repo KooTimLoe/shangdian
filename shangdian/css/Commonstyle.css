@@ -1,0 +1,354 @@
+body,html
+{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+body>div
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*顶部*/
+
+
+
+
+
+
+.top input
+{
+	display: none;
+}
+
+.menu{
+	width:50px;
+	height:50px;
+	float:right;
+	cursor: pointer;
+	display: none;
+	margin-right:10px;
+}
+
+.menu span{
+	width:80%;
+	height:5px;
+	background:#D6EE74;
+	float:left;
+	margin:9px auto 0;
+}
+
+.top
+{
+	width: 100%;
+	height: 80px;
+	background: #FFFFFF;
+}
+.top img
+{
+	display:inline-block;
+	margin-left:15%;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.mc p
+{
+	color: #00892f;
+	margin-top: -10px;
+	
+}
+.mc
+{
+	position: absolute;
+	display:inline-block;
+	margin-left: 10px;
+	color: #008d3b;
+}
+.mc h1
+{
+	margin-top: 10px;
+}
+.dh
+{
+	float: right;
+	margin-right: 10%;
+	font-size: 14px;
+}
+.dh li
+{
+	display: inline-block;
+	line-height: 80px;
+	width: 85px;
+	text-align: center;
+	transition: all .3s ease-in-out;
+}
+.dh li a
+{
+	color: #000000;;
+}
+.dh span
+{
+	display: none;
+	text-align: center;
+}
+.dh li:hover
+{
+	background: #d6ee74;
+	color: #fff;
+}
+.dh li:hover>a
+{
+	display: none;
+}
+.dh li:hover>span
+{
+	
+	display: inline-block;
+}
+.dh li:hover>span a
+{
+	color: #fff;
+}
+/*轮播图*/
+.lb
+{
+	width: 100%;
+	height: auto;
+}
+.lb img
+{
+	width: 100%;
+	height: 500px;
+}
+.lb label
+{
+	width: 15px;
+	height: 15px;
+	background:#a3d3e9;
+	border-radius: 50%;
+}
+.lb input
+{
+	display: none;
+}
+.lb div
+{
+	position: relative;
+	text-align: center;
+	top: -50px;
+}
+.lb label
+{
+	margin-left: 20px;
+}
+.lb label:checked
+{
+	background: #2395cb;
+}
+
+
+.images2,.images3,.images4
+{
+	display: none;
+}
+
+
+input[id="img1"]:checked~.images1
+{
+	display: block;
+	z-index: 111;
+}
+input[id="img1"]:checked~.images2,
+input[id="img1"]:checked~.images3,
+input[id="img1"]:checked~.images4
+{
+	display: none;
+	z-index: -111;
+}
+input[id="img2"]:checked~.images2
+{
+	display: block;
+	z-index: 111;
+}
+input[id="img2"]:checked~.images3,
+input[id="img2"]:checked~.images1,
+input[id="img2"]:checked~.images4
+{
+	display: none;
+	z-index: -111;
+}
+input[id="img3"]:checked~.images3
+{
+	display: block;
+	z-index: 111;
+}
+input[id="img3"]:checked~.images1,
+input[id="img3"]:checked~.images2,
+input[id="img3"]:checked~.images4
+{
+	display: none;
+	z-index: -111;
+}
+input[id="img4"]:checked~.images4
+{
+	display: block;
+	z-index: 111;
+}
+input[id="img4"]:checked~.images1,
+input[id="img4"]:checked~.images2,
+input[id="img4"]:checked~.images3
+{
+	display: none;
+	z-index: -111;
+}
+input#img1:checked ~ div label#image1,
+input#img2:checked ~ div label#image2,
+input#img3:checked ~ div label#image3,
+input#img4:checked ~ div label#image4 
+{
+    background: rgba(35, 149, 203,1);
+}
+
+@media screen and (max-width:700px ) 
+{
+	.lb img
+	{
+		height: 300px;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1050px)
+{
+	input[name='dh']:checked + .menu 
+	{
+	    transform: rotate(90deg);
+	}
+	.menu 
+	{
+	    display: inline-block;
+	    transition: all .2s linear;
+	    margin-top:20px
+	}
+	.dh 
+	{
+		width: 100%;
+    	display: none;
+    	margin: 0;
+    	margin-top: 20px;
+    	float: left;
+    	padding: 0;
+	}
+	.dh li 
+   {
+   	
+	    width: 100%;
+	    text-align: center;
+	    background: #fff;
+   }
+}
+input[id='dh']:checked~.dh
+{
+	display: block;
+}
+
+/*底部*/
+
+
+.bottom
+{
+	width: 100%;
+	height: 240px;
+	background: #454545;
+	clear: both;
+}
+.bottom .container
+{
+	width: 80%;
+	height: 240px;
+	margin: 0px auto;
+}
+.bottom .row
+{
+	margin-top: 50px;
+}
+.bottom .bot-z span
+{
+	color: #fff;
+	font-size: 34px;
+	margin-left: 6px;
+}
+
+.bottom .bot-zh p:nth-child(1),.bottom .bot-y p:nth-child(1)
+{
+	font-size: 20px;
+	color: #ededed;
+	margin-bottom: 25px;
+}
+.bottom .bot-y p:nth-child(1)
+{
+	text-align: left;
+}
+.bottom .bot-zh p,.bottom .bot-y p
+{
+	font-size:12px ;
+	color: #d6d6d6;
+}
+.bottom .bot-y p
+{
+	text-align: left;
+	margin-left: 60px;
+}
+.bottom .bot-z img:nth-child(3)
+{
+	float: right;
+	margin-top: -55px;
+	width: 4px;
+}
+.bottom .bot-y img:nth-child(2)
+{
+	float: left;
+	margin-top: -10px;
+	width: 4px;
+}
+.bottom .bot-y img:nth-child(3)
+{
+	float: right;
+	margin-top: -10px;
+	width: 4px;
+}
+@media screen and (max-width:1000px ) 
+{
+	.bottom,
+	.bottom .container
+	{
+		height: auto;
+		text-align: center;	
+	}
+	.bottom .bot-z img:nth-child(3),
+	.bottom .bot-y img:nth-child(2),
+	.bottom .bot-y img:nth-child(3)
+	{
+		display: none;
+	}
+	.bottom .container .row div
+	{
+		margin-bottom: 40px;
+	}
+	.bot-z
+	{
+		padding-left: 89px;
+		padding-right: 75px;
+	}
+	
+}

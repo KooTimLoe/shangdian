@@ -1,0 +1,203 @@
+.lb img
+{
+	height: 300px;
+}
+.zjsd
+{
+	width: 80%;
+	height: auto;
+	background-image: url(../img/2bj_05.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+.zjsd p:nth-child(3)
+{
+	font-size: 22px;
+	margin: 0 auto;
+	margin-top: -35px;
+	width: 100px;
+	background: #fff;
+	
+}
+.zjsd p
+{
+	color: #c1c2c1;
+	font-size: 16px;
+}
+.zjsd hr
+{
+	margin-top: 40px;
+}
+.zjsd p:nth-child(4)
+{
+	padding-top: 70px;
+}
+.zjsd p:nth-child(7)
+{
+	padding-bottom: 70px;
+}
+/*尚典宗旨*/
+.sdzz
+{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.sdzz p
+{
+	width: 40%;
+	display: inline-block;
+	font-size: 16px;
+	color: #c1c2c1;
+	text-align: left;
+	text-indent:2em;
+}
+
+.sp
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom:50px;
+	border: 2px solid #969696;
+	padding: 1%;
+}
+.sp img
+{
+	width: 100%;
+	height: 100%;
+}
+.jies
+{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.jies .container,.jies .row
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.jies .row div
+{
+	/*margin: 0;*/
+	padding:0;
+}
+
+.sdjz
+{
+	background-image: url(../img/2jzbj_16.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.sdjz-z img
+{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.sdjz-z p
+{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 15px;
+	color: #cecece;
+	text-indent:2em;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.sdjz-y
+{
+	height: 366px;
+}
+.sdjz-y div,.sdfz-z div
+{
+	width: 23%;
+	border: 1px solid #969696;
+	position: relative;
+	top: 100px;
+	left: 50%;
+	color: #949494;
+}
+.sdjz-y div p,.sdfz-z div p
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.sdjz-y div h3,.sdfz-z div h3
+{
+	margin-top: -5px;
+}
+.sdjz-y div hr,.sdfz-z div hr
+{
+	margin-top: 20px;
+	width: 40%;
+	border: 1px solid #969696;
+	margin-bottom: 40px;
+}
+/*发展历程*/
+.sdfz-z
+{
+	height: 366px;
+	background-image: url(../img/2fcgcbj_24.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;	
+}
+.sdfz-y img
+{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.fzlc img
+{
+	width: 100%;
+}
+.fzlc h4
+{
+	margin-top: 120px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #717171;
+}
+.fzlc p
+{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #a8a8a8;
+}
+.fzlc div
+{
+	margin-bottom: 30px;
+}
+@media screen and (max-width:470px ) 
+{
+	.sdzz img
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width:850px ) 
+{
+	.sdzz p
+	{
+		width: 100%;
+	}
+	.sdjz
+	{
+		background-position: bottom;
+	}
+	
+}
+@media screen and (max-width:550px ) 
+{
+	.sdjz-y div,
+	.sdfz-z div
+	{
+		width: 40%;
+	}	
+}

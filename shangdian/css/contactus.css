@@ -1,0 +1,153 @@
+.lb img
+{
+	height: 300px;
+}
+
+.contactus 
+{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.zdao p
+{
+	margin-top: 20px;
+	text-align: left;
+	color: #9d9d9d;
+	line-height: 35px;
+	border-bottom: 1px solid #BFBFBF;
+}
+.zdao p span
+{
+	float: right;
+	color: #9d9d9d;
+}
+.zdao p span a
+{
+	color: #9d9d9d;
+}
+
+.contact
+{
+	width: 100%;
+	height: 360px;
+	padding-left: 5%;
+	padding-right:5%;
+	clear: both;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 50px;
+}
+
+
+.contact p
+{
+	color: #c8c8c8;
+	text-align: left;
+	margin-top: 25px;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.contact>p:nth-child(1)
+{
+	color: #d6ee74;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.contect-z,
+.contect-y
+{
+	width: 50%;
+	margin-bottom: 60px;
+}
+.contect-z
+{
+	float: left;
+}
+.contect-y
+{
+	float: right;
+}
+.contect-y
+{
+	border-left: 1px solid #eee;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+.contect-y p:nth-child(1)
+{
+	margin-top: 5px;
+}
+.input
+{
+	width: 100%;
+	padding-left: 5%;
+	text-align: center;
+}
+.input input
+{
+	width:30%;
+	margin-right: 4%;
+	line-height: 40px;
+	padding-left: 10px;
+	float: left;
+}
+.input input:nth-child(3)
+{
+	margin-right: 0;
+}
+
+.input textarea
+{
+	width: 100%;
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+.input input:last-child
+{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	color: #fff;
+	background: #d6ee74;
+	margin-bottom: 70px;
+	float: none;
+}
+
+
+
+@media screen and (max-width:1200px ) 
+{
+	.contect-y
+	{
+		border: none;
+		float: none;
+	}
+	.contect-z,
+    .contect-y
+    {
+	width: 100%;
+	}
+	.contact
+	{
+		height: auto;
+		border: none;
+	}
+	.contect-z img
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:700px ) 
+{
+	.input input
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+}

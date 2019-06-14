@@ -1,0 +1,93 @@
+.lb img
+{
+	height: 300px;
+}
+.query
+{
+	width: 100%;
+	height: auto;
+}
+.query
+{
+	height: 500px;
+    background-image: url(../img/08bj_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 120%;
+    background-position: center;
+    text-align: center;
+	
+}
+.query div
+{
+	width: 28%;
+	height: auto;
+    margin: 0px auto;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    padding-right: 30px;
+}
+.query img
+{
+	width: 40px;
+	height: 40px;
+}
+.query li:nth-child(1)
+{
+	margin-left: 17%;
+}
+.query li p
+{
+	width: auto;
+	color: #40ab6e;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+.query li span
+{
+	font-size: 10px;
+	color: #5d9d92;
+}
+.query li
+{
+	height: auto;
+	float: left;
+	margin-left: 10px;
+}
+.text
+{
+	width: 65%;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #29a25d;
+	background: #edf0f0;
+	border: none;
+	float: left;
+	margin-right: 5px;
+}
+.button
+{
+	width: 30%;
+	line-height: 40px;
+	color: #fff;
+	background: #0e7e6f;
+	border: none;
+	float: left;
+}
+.query input
+{
+	margin-top: 10px;
+}
+.query input::-webkit-input-placeholder
+{
+	color: #29a25d;
+}
+.query p:last-child
+{
+	margin-top: 5px;
+	width: 100%;
+	color: #d5d5d5;
+	float: left;
+	text-align: left;
+	padding-left: 5%;
+}
